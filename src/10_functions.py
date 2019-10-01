@@ -9,4 +9,10 @@ num = int(num)
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
+def isEven(i):
+    if i % 2 == 0:
+        True and print("Even!")
+    else:
+        False and print("Odd")
 
+isEven(num)
